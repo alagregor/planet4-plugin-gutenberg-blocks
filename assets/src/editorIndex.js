@@ -8,6 +8,7 @@ import { GalleryBlock } from './blocks/Gallery/GalleryBlock';
 import { HappypointBlock } from './blocks/Happypoint/HappypointBlock';
 import { MediaBlock } from './blocks/Media/MediaBlock';
 import { SocialmediaBlock } from './blocks/Socialmedia/SocialmediaBlock';
+import { SocialshareBlock } from './blocks/Socialshare/SocailshareBlock';
 import { SplittwocolumnsBlock } from './blocks/Splittwocolumns/SplittwocolumnsBlock';
 import { SubmenuBlock } from './blocks/Submenu/SubmenuBlock';
 import { TakeactionboxoutBlock } from './blocks/Takeactionboxout/TakeactionboxoutBlock';
@@ -32,6 +33,8 @@ const splittwocolumnsBlock = new SplittwocolumnsBlock();
 const submenuBlock = new SubmenuBlock();
 const takeActionBoxoutBlock = new TakeactionboxoutBlock();
 const timelineBlock = new TimelineBlock();
+const socailshareBlock = new SocialshareBlock();
+
 
 addBlockFilters();
 addSubAndSuperscript(window.wp);
